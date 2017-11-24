@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12B2E8B91FC862D700ADE983 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2E8B81FC862D700ADE983 /* AppStorage.swift */; };
+		12B2E8BE1FC862E100ADE983 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2E8BA1FC862E100ADE983 /* CartViewController.swift */; };
+		12B2E8BF1FC862E100ADE983 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2E8BB1FC862E100ADE983 /* ScoreViewController.swift */; };
+		12B2E8C01FC862E100ADE983 /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2E8BC1FC862E100ADE983 /* ThankYouViewController.swift */; };
 		12F5AB921FC6CDE9003F0970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F5AB911FC6CDE9003F0970 /* AppDelegate.swift */; };
 		12F5AB971FC6CDE9003F0970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F5AB951FC6CDE9003F0970 /* Main.storyboard */; };
 		12F5AB991FC6CDE9003F0970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F5AB981FC6CDE9003F0970 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12B2E8B81FC862D700ADE983 /* AppStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		12B2E8BA1FC862E100ADE983 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = SOURCE_ROOT; };
+		12B2E8BB1FC862E100ADE983 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = SOURCE_ROOT; };
+		12B2E8BC1FC862E100ADE983 /* ThankYouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = SOURCE_ROOT; };
 		12F5AB8E1FC6CDE9003F0970 /* SimpleScoreSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleScoreSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F5AB911FC6CDE9003F0970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12F5AB961FC6CDE9003F0970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,9 +41,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12B2E8B71FC862D700ADE983 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				12B2E8B81FC862D700ADE983 /* AppStorage.swift */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		12B2E8C21FC862EF00ADE983 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				12B2E8BA1FC862E100ADE983 /* CartViewController.swift */,
+				12B2E8BB1FC862E100ADE983 /* ScoreViewController.swift */,
+				12B2E8BC1FC862E100ADE983 /* ThankYouViewController.swift */,
+			);
+			name = viewcontroller;
+			sourceTree = "<group>";
+		};
 		12F5AB851FC6CDE9003F0970 = {
 			isa = PBXGroup;
 			children = (
+				12B2E8C21FC862EF00ADE983 /* viewcontroller */,
 				12F5AB901FC6CDE9003F0970 /* SimpleScoreSwift */,
 				12F5AB8F1FC6CDE9003F0970 /* Products */,
 			);
@@ -52,6 +79,7 @@
 		12F5AB901FC6CDE9003F0970 /* SimpleScoreSwift */ = {
 			isa = PBXGroup;
 			children = (
+				12B2E8B71FC862D700ADE983 /* class */,
 				12F5AB911FC6CDE9003F0970 /* AppDelegate.swift */,
 				12F5AB951FC6CDE9003F0970 /* Main.storyboard */,
 				12F5AB981FC6CDE9003F0970 /* Assets.xcassets */,
@@ -134,6 +162,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				12F5AB921FC6CDE9003F0970 /* AppDelegate.swift in Sources */,
+				12B2E8BE1FC862E100ADE983 /* CartViewController.swift in Sources */,
+				12B2E8B91FC862D700ADE983 /* AppStorage.swift in Sources */,
+				12B2E8BF1FC862E100ADE983 /* ScoreViewController.swift in Sources */,
+				12B2E8C01FC862E100ADE983 /* ThankYouViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
