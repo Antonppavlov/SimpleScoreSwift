@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,6 +20,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Nk-HL-fWz">
                                 <rect key="frame" x="29.5" y="41" width="100" height="100"/>
+                                <accessibility key="accessibilityConfiguration" identifier="iphone"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="hbe-YH-YA1"/>
                                     <constraint firstAttribute="height" constant="100" id="sjW-RY-4cv"/>
@@ -31,6 +32,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmf-iS-77C">
                                 <rect key="frame" x="137.5" y="41" width="100" height="100"/>
+                                <accessibility key="accessibilityConfiguration" identifier="mouse"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="B1T-bv-1OV"/>
                                     <constraint firstAttribute="height" constant="100" id="Bv5-Bh-tK5"/>
@@ -42,6 +44,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vay-ir-dr2">
                                 <rect key="frame" x="245.5" y="41" width="100" height="100"/>
+                                <accessibility key="accessibilityConfiguration" identifier="ps4"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="K08-Mu-fGY"/>
                                     <constraint firstAttribute="height" constant="100" id="LIW-tF-MZg"/>
@@ -53,6 +56,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5q8-TM-VXB">
                                 <rect key="frame" x="29.5" y="149" width="100" height="100"/>
+                                <accessibility key="accessibilityConfiguration" identifier="camera"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="ENT-2A-cbB"/>
                                     <constraint firstAttribute="height" constant="100" id="Xvg-5r-pnh"/>
@@ -64,6 +68,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndO-oF-TbP">
                                 <rect key="frame" x="137.5" y="149" width="100" height="100"/>
+                                <accessibility key="accessibilityConfiguration" identifier="keyboard"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="8Iw-aJ-baF"/>
                                     <constraint firstAttribute="width" constant="100" id="qh8-d1-Tjy"/>
@@ -75,6 +80,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xT9-Zc-1lQ">
                                 <rect key="frame" x="245.5" y="149" width="100" height="100"/>
+                                <accessibility key="accessibilityConfiguration" identifier="notebook"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="jTb-jb-g1W"/>
                                     <constraint firstAttribute="width" constant="100" id="pEe-DA-CAT"/>
@@ -86,12 +92,14 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJn-5P-THg">
                                 <rect key="frame" x="20" y="333" width="335" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="money"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total money:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="toE-Dw-inW">
-                                <rect key="frame" x="138" y="305" width="100" height="20"/>
+                                <rect key="frame" x="137.5" y="305" width="100" height="20"/>
+                                <accessibility key="accessibilityConfiguration" identifier="description"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="3oY-tQ-yaY"/>
                                     <constraint firstAttribute="width" constant="100" id="7Zg-PO-trR"/>
@@ -102,6 +110,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dr-z0-hvV">
                                 <rect key="frame" x="20" y="597" width="150" height="50"/>
+                                <accessibility key="accessibilityConfiguration" identifier="add_to_cart"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="1MJ-78-3c5"/>
                                     <constraint firstAttribute="height" constant="50" id="gZP-G6-yaU"/>
@@ -114,6 +123,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="liZ-kt-iPY">
                                 <rect key="frame" x="205" y="597" width="150" height="50"/>
+                                <accessibility key="accessibilityConfiguration" identifier="buy_now"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="F8J-si-Edi"/>
                                     <constraint firstAttribute="width" constant="150" id="n2D-xK-3KM"/>
@@ -178,6 +188,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2VV-dC-5fk">
                                 <rect key="frame" x="20" y="597" width="150" height="50"/>
+                                <accessibility key="accessibilityConfiguration" identifier="back"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="P81-oP-jC4"/>
                                     <constraint firstAttribute="width" constant="150" id="wYE-aO-ZVL"/>
@@ -190,18 +201,21 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQN-9U-Mmi">
                                 <rect key="frame" x="0.0" y="333" width="375" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="money"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="At this step you can buy the goods or go back to the store. Total money:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2WZ-un-r0r">
                                 <rect key="frame" x="0.0" y="20" width="375" height="305"/>
+                                <accessibility key="accessibilityConfiguration" identifier="description"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Kn-pg-exa">
                                 <rect key="frame" x="205" y="597" width="150" height="50"/>
+                                <accessibility key="accessibilityConfiguration" identifier="buy_it_here"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="0VH-FW-R5z"/>
                                     <constraint firstAttribute="height" constant="50" id="p62-ip-gBt"/>
@@ -250,6 +264,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rd-Nr-RaT">
                                 <rect key="frame" x="112.5" y="318.5" width="150" height="50"/>
+                                <accessibility key="accessibilityConfiguration" identifier="back"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="2i4-3S-sc4"/>
                                     <constraint firstAttribute="width" constant="150" id="LIN-pd-hqJ"/>
@@ -262,12 +277,14 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRu-fG-lbc">
                                 <rect key="frame" x="16" y="191" width="343" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="money"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you for your purchase. By clicking on the button you can return to the store. Total money:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5B-Gr-Kwj">
                                 <rect key="frame" x="16" y="20" width="343" height="163"/>
+                                <accessibility key="accessibilityConfiguration" identifier="description"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="218-lg-XhN"/>
                                     <constraint firstAttribute="height" constant="163" id="Vi0-Ef-81A"/>
@@ -312,7 +329,7 @@
         <image name="ps4" width="900" height="844"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="awS-fK-eDd"/>
+        <segue reference="tqI-3O-CgC"/>
         <segue reference="lHH-Gh-akY"/>
     </inferredMetricsTieBreakers>
 </document>
